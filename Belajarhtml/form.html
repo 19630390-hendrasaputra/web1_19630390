@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+</head>
+<body>
+    <form action="proses.php" method="post">
+        <label>Nama Lengkap :</label>
+        <input type="text" name="Nama" id="Nama">
+        <br>
+        <label>Jenis Kelamin</label>
+        <input type="radio" name="Jen_Kel" value="L" checked>laki-laki
+        <input type="radio" name="Jen_Kel" value="P">Perempuan
+        <br>
+        <label>Hobi : </label>
+        <input type="checkbox" name="hobi" value="Sepakbola">Sepakbola
+        <input type="checkbox" name="hobi" value="Memancing">Memancing
+        <input type="checkbox" name="hobi" value="Gowes">Gowes
+        <input type="checkbox" name="hobi" value="Menyanyi">Menyanyi
+        <input type="checkbox" name="hobi" value="Lainnya">Lainnya
+        <br>
+        <label>Asal Daerah :</label>
+        <select name="Asal">
+        <Option Value="Banjarmasin">Banjarmasin</Option>
+        <Option Value="Banjarbaru">Banjarbaru</Option>
+        <Option Value="Palangkaraya">Palangkaraya</Option>
+        </select>
+        <br>
+        <label>Kata Kunci :</label>
+        <input type="password" name="Password">
+        <br>
+        <label>Pesan dan Kesan</label>
+        <textarea name="pesankesan" cols="30" rows="5">
+            Isikan Pesan dan Kesan
+        </textarea>
+        <br>
+        <input type="submit" value="kirim data">
+    </form>
+</body>
+</html>

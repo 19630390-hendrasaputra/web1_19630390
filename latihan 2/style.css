@@ -1,0 +1,24 @@
+h1{
+    color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.kotak{
+    background: seagreen;
+    color: #ffffff;
+    width: 100px;
+    height: 50px;
+    padding: 50px;
+    margin: 10px;
+    float: left;
+}
+
+#kotak{
+    background: skyblue;
+    color: blue;
+    width: 100px;
+    height: 50px;
+    padding: 50px;
+    margin: 10px;
+    float: left;
+}
